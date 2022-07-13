@@ -4,13 +4,16 @@ function Player(props) {
 
     return (
         <section className="player-card">
-            <h3 className="player-name"></h3>
+            <h3 className="player-name">{props.playerName}</h3>
             <img
                 className='player-image'
-                src={props.img}
-                alt=''
+                src={props.imageUrl}
+                alt='player headshot'
             />
-            <div className="player-stats">
+            <div className="player-stats flex-row space-between">
+                <p>{props.birthDate}</p>
+                <p>ht. {props.height}</p>
+                <p>{props.weight} lbs</p>
             </div>
         </section>
     );
