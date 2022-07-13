@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/monumental-basketball/static/css/main.a6eab404.css",
+    "main.css": "/monumental-basketball/static/css/main.176f567d.css",
     "main.js": "/monumental-basketball/static/js/main.eb79f3d8.js",
     "static/js/787.159fd755.chunk.js": "/monumental-basketball/static/js/787.159fd755.chunk.js",
     "index.html": "/monumental-basketball/index.html",
-    "main.a6eab404.css.map": "/monumental-basketball/static/css/main.a6eab404.css.map",
+    "main.176f567d.css.map": "/monumental-basketball/static/css/main.176f567d.css.map",
     "main.eb79f3d8.js.map": "/monumental-basketball/static/js/main.eb79f3d8.js.map",
     "787.159fd755.chunk.js.map": "/monumental-basketball/static/js/787.159fd755.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6eab404.css",
+    "static/css/main.176f567d.css",
     "static/js/main.eb79f3d8.js"
   ]
 }
