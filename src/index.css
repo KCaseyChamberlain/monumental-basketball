@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -21,6 +21,46 @@ code {
   justify-content: space-between;
 }
 
-.player-card{
+.player-card {
   margin: 15px;
+}
+
+.center {
+  justify-content: center;
+}
+
+header {
+  background-color: rgb(212, 183, 193);
+  border-bottom: 2px solid black;
+}
+
+.player-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+
+.player-name {
+  display: flex;
+  justify-content: center;
+}
+
+.player-stats {
+  font-weight: 600;
+}
+
+#generate-btn{
+  display: flex;
+  justify-content: center;
+  padding: 20px
+}
+
+button{
+  padding: 15px;
+  background-color: rgb(236, 93, 148);
+  font-weight: 600;
+}
+
+button:hover{
+  background-color: rgb(147, 203, 186) ;
+  cursor: pointer;
 }

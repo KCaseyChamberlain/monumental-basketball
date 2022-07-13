@@ -8,6 +8,9 @@ function App() {
   return (
     <main>
       <Nav />
+      <div id='generate-btn'>
+      <button>Generate 4 X 4 Game</button>
+      </div>
       <Players />
       <Footer />
     </main>

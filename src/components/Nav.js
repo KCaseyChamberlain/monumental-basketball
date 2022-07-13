@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react';
+import { FaBasketballBall } from "react-icons/fa"
 
-function Nav(props) {
-    
+function Nav() {
     return (
-        <header>
-            <h2>
-            </h2>
-            <nav>
-            </nav>
+        <header className='flex-row center'>
+            <FaBasketballBall size={40} />
+            <h2>Monumental Basketball</h2>
+            <FaBasketballBall size={40} />
         </header>
     );
 }
